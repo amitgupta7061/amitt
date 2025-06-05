@@ -1,33 +1,20 @@
 export const service = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Frontend Development",
+    desc: "Designing and developing visually appealing, user-friendly web interfaces tailored to client needs.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
     title: "Backend Development",
-    desc: "Built and maintained scalable backend services using Node.js, Express, and MongoDB.",
+    desc: "Providing secure, efficient, and scalable server-side solutions to support application functionality.",
     className: "md:col-span-2",
-    thumbnail: "/exp2.svg", // you can update the image if needed
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/exp2.svg",
   },
 ];
+
 
 export const counters = [
   { value: 500, label: "Problems Solved", suffix: "+" },

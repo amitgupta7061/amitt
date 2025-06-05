@@ -7,7 +7,7 @@ import { service } from '../lib/data'
 const Services = () => {
 
   return (
-    <div className="py-20 w-full px-6 lg:px-28 ">
+    <div className="pt-20 w-full px-6 lg:px-28 ">
       <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center">
             My <span className="text-primary">Services</span>
           </h2>
