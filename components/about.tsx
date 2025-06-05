@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 export default function About() {
   return (
-    <section id="about" className="py-20 md:py-32 bg-muted/20">
+    <section id="about" className="py-20 md:py-32 bg-muted/20 lg:px-28">
       <div className="container px-4 mx-auto">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
