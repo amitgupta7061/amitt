@@ -98,13 +98,13 @@ export const projects: ProjectType[] = [
   {
     id: 3,
     title: "BiteRush",
-    description: "A responsive food delivery website with modern UI.",
+    description: "A Full stack responsive food delivery website with modern UI.",
     longDescription:
       "Architected and developed responsive food delivery website using React.js and advanced web technologies. Implemented core components including a navigation bar, multi-page layout, React Router setup, website header, menu items, food list, footer, and user authentication (Sign In/Sign Up), with responsive UI ensuring compatibility across all devices.",
     image:
       "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    demoLink: "https://euphonious-heliotrope-4bb0bc.netlify.app/",
-    githubLink: "https://github.com/amitgupta7061/BiteRush",
+    demoLink: "https://biterush-e5jv.onrender.com/",
+    githubLink: "https://github.com/amitgupta7061/Food-App",
     tags: [
       "React.js",
       "HTML",
@@ -123,34 +123,3 @@ interface Skill {
   percentage: number;
   color: string;
 }
-
-export const frontendSkills: Skill[] = [
-  { name: "HTML/CSS", percentage: 95, color: "from-orange-500 to-red-500" },
-  { name: "JavaScript", percentage: 90, color: "from-yellow-400 to-amber-600" },
-  { name: "TypeScript", percentage: 85, color: "from-blue-400 to-blue-600" },
-  { name: "React.js", percentage: 90, color: "from-cyan-500 to-blue-500" },
-  { name: "Next.js", percentage: 88, color: "from-gray-700 to-gray-900" },
-  { name: "Tailwind CSS", percentage: 92, color: "from-cyan-400 to-sky-500" },
-];
-
-export const backendSkills: Skill[] = [
-  { name: "Node.js", percentage: 85, color: "from-green-500 to-emerald-600" },
-  { name: "Express.js", percentage: 88, color: "from-gray-500 to-gray-700" },
-  { name: "MongoDB", percentage: 80, color: "from-green-600 to-green-800" },
-  { name: "MySQL", percentage: 82, color: "from-blue-600 to-indigo-800" },
-  { name: "REST API", percentage: 85, color: "from-indigo-400 to-indigo-600" },
-  { name: "Socket.IO", percentage: 75, color: "from-yellow-500 to-amber-600" },
-];
-
-export const otherSkills: Skill[] = [
-  { name: "C++", percentage: 85, color: "from-blue-600 to-blue-800" },
-  { name: "Java", percentage: 80, color: "from-red-600 to-red-800" },
-  { name: "PHP", percentage: 70, color: "from-purple-500 to-purple-700" },
-  { name: "Git/GitHub", percentage: 88, color: "from-gray-600 to-gray-800" },
-  {
-    name: "Data Structures",
-    percentage: 90,
-    color: "from-green-500 to-green-700",
-  },
-  { name: "Algorithms", percentage: 90, color: "from-orange-600 to-red-600" },
-];

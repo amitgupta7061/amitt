@@ -2,14 +2,47 @@
 
 import { motion } from 'framer-motion';
 import { Progress } from '@/components/ui/progress';
-import { backendSkills, frontendSkills, otherSkills } from '@/lib/data';
+
+interface Skill {
+  name: string;
+  percentage: number;
+  color: string;
+}
 
 export default function Skills() {
-  interface Skill {
-    name: string;
-    percentage: number;
-    color: string;
-  }
+
+  const frontendSkills: Skill[] = [
+    { name: "HTML/CSS", percentage: 95, color: "from-orange-500 to-red-500" },
+    { name: "JavaScript", percentage: 90, color: "from-yellow-400 to-amber-600" },
+    { name: "TypeScript", percentage: 85, color: "from-blue-400 to-blue-600" },
+    { name: "React.js", percentage: 90, color: "from-cyan-500 to-blue-500" },
+    { name: "Next.js", percentage: 88, color: "from-gray-700 to-gray-900" },
+    { name: "Tailwind CSS", percentage: 92, color: "from-cyan-400 to-sky-500" },
+  ];
+
+  const backendSkills: Skill[] = [
+    { name: "Node.js", percentage: 85, color: "from-green-500 to-emerald-600" },
+    { name: "Express.js", percentage: 88, color: "from-gray-500 to-gray-700" },
+    { name: "MongoDB", percentage: 80, color: "from-green-600 to-green-800" },
+    { name: "MySQL", percentage: 82, color: "from-blue-600 to-indigo-800" },
+    { name: "REST API", percentage: 85, color: "from-indigo-400 to-indigo-600" },
+    { name: "Socket.IO", percentage: 75, color: "from-yellow-500 to-amber-600" },
+  ];
+  
+  const otherSkills: Skill[] = [
+    { name: "C++", percentage: 85, color: "from-blue-600 to-blue-800" },
+    { name: "Java", percentage: 80, color: "from-red-600 to-red-800" },
+    { name: "PHP", percentage: 70, color: "from-purple-500 to-purple-700" },
+    { name: "Git/GitHub", percentage: 88, color: "from-gray-600 to-gray-800" },
+    {
+      name: "Data Structures",
+      percentage: 90,
+      color: "from-green-500 to-green-700",
+    },
+    { name: "Algorithms", percentage: 90, color: "from-orange-600 to-red-600" },
+  ];
+  
+  
 
   const fadeInUpVariants = {
     hidden: { opacity: 0, y: 30 },
