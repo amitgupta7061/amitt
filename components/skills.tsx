@@ -87,7 +87,7 @@ export default function Skills() {
   );
 
   return (
-    <section id="skills" className="py-20 md:py-32">
+    <section id="skills" className="py-20 md:py-32 lg:px-28">
       <div className="container px-4 mx-auto">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
