@@ -102,7 +102,7 @@ export default function Contact() {
                     href="tel:+917061561710" 
                     className="text-sm text-muted-foreground hover:text-primary transition-colors"
                   >
-                    +91 7061561710
+                    +91 706156XXXX
                   </a>
                 </div>
               </CardContent>
