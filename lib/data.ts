@@ -17,8 +17,8 @@ export const service = [
 
 
 export const counters = [
-  { value: 500, label: "Problems Solved", suffix: "+" },
-  { value: 200, label: "Day Streak", suffix: "+" },
+  { value: 650, label: "Problems Solved", suffix: "+" },
+  { value: 280, label: "Day Streak", suffix: "+" },
   { value: 1908, label: "Contest Rating", suffix: "" },
   { value: 10, label: "Top Percentile", suffix: "%" },
 ];
