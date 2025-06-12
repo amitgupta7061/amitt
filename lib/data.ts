@@ -151,7 +151,7 @@ export const projects: ProjectType[] = [
     longDescription:
       "Built a responsive and feature-rich music streaming application using React.js. Users can search songs, create playlists, and enjoy seamless audio playback with real-time player controls. Integrated third-party music APIs for dynamic content, managed state efficiently with Zustand, and styled the UI with TailwindCSS and ShadCN for a clean and modern experience.",
     image:
-      "https://th.bing.com/th/id/OIP.NcQfw9AArdiP7uhxG0M1tAHaEK?rs=1&pid=ImgDetMain",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/fs/0681be113301571.6024efc1a4d55.png",
     demoLink: "https://amitt.vercel.app",
     githubLink: "https://github.com/amitgupta7061/Spotify-clone",
     tags: [
