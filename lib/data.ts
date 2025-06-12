@@ -103,6 +103,70 @@ export const projects: ProjectType[] = [
     ],
     date: "June 2024",
   },
+  {
+    id: 4,
+    title: "AI Based Learning Platform",
+    description:
+      "Full-stack platform offering AI-personalized courses, secure access, and interactive video learning.",
+    longDescription:
+      "Designed and developed a full-stack AI-powered e-learning platform that delivers personalized course content and learning experiences. The platform features secure user authentication via Clerk, premium subscription handling through Stripe, and AI-driven content generation for tailored lessons. Key features include interactive video learning via YouTube API, real-time student progress tracking, and dynamic dashboards for a seamless educational journey.",
+    image:
+      "https://cdn.leverageedu.com/blog/wp-content/uploads/2020/03/24185535/Online-Learning.png",
+    demoLink: "https://online-learning-omega.vercel.app/",
+    githubLink: "https://github.com/amitgupta7061/online-learning",
+    tags: [
+      "Next.js", "React.js", "Tailwind CSS", "Typescript", "Prisma ORM", "PostgreSQL", "Clerk", "Stripe", "OpenAI API"
+    ],
+    date: "Apr 2025",
+  },
+  {
+    id: 5,
+    title: "Document Analyzer",
+    description:
+      "AI-powered platform to analyze, summarize, and chat with documents.",
+    longDescription:
+      "Developed a full-stack document analysis platform using Next.js and Gemini API to enable intelligent summarization, question answering, and contextual understanding of uploaded documents. Integrated JWT-based authentication, modern UI components with TailwindCSS and ShadCN, and state management using Zustand. Features include document upload, parsing, semantic interaction, and a responsive user dashboard.",
+    image:
+      "https://th.bing.com/th/id/OIP.2BG60_JTC3DwpJB4VyGogQHaEc?rs=1&pid=ImgDetMain",
+    demoLink: "https://amitt.vercel.app",
+    githubLink: "https://github.com/amitgupta7061/Docuq",
+    tags: [
+      "Next.js",
+      "React.js",
+      "Node.js",
+      "Gemini API",
+      "PostgreSQL",
+      "JWT",
+      "TailwindCSS",
+      "ShadCN",
+      "Zustand"
+    ],
+    date: "May 2025"
+  },
+  {
+    id: 6,
+    title: "GrooveStream Music App",
+    description:
+      "Modern music streaming app with playlist, search, and playback features.",
+    longDescription:
+      "Built a responsive and feature-rich music streaming application using React.js. Users can search songs, create playlists, and enjoy seamless audio playback with real-time player controls. Integrated third-party music APIs for dynamic content, managed state efficiently with Zustand, and styled the UI with TailwindCSS and ShadCN for a clean and modern experience.",
+    image:
+      "https://th.bing.com/th/id/OIP.NcQfw9AArdiP7uhxG0M1tAHaEK?rs=1&pid=ImgDetMain",
+    demoLink: "https://amitt.vercel.app",
+    githubLink: "https://github.com/amitgupta7061/Spotify-clone",
+    tags: [
+      "React.js",
+      "TailwindCSS",
+      "ShadCN",
+      "Zustand",
+      "Music API",
+      "Audio Player",
+      "PostgreSQL",
+      "Clerk",
+      "Prisma"
+    ],
+    date: "Feb 2025"
+  }
 ];
 
 interface Skill {
