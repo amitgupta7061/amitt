@@ -128,7 +128,7 @@ export const projects: ProjectType[] = [
       "Developed a full-stack document analysis platform using Next.js and Gemini API to enable intelligent summarization, question answering, and contextual understanding of uploaded documents. Integrated JWT-based authentication, modern UI components with TailwindCSS and ShadCN, and state management using Zustand. Features include document upload, parsing, semantic interaction, and a responsive user dashboard.",
     image:
       "https://th.bing.com/th/id/OIP.2BG60_JTC3DwpJB4VyGogQHaEc?rs=1&pid=ImgDetMain",
-    demoLink: "https://amitt.vercel.app",
+    demoLink: "https://docuq.vercel.app/",
     githubLink: "https://github.com/amitgupta7061/Docuq",
     tags: [
       "Next.js",
